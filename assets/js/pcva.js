@@ -150,3 +150,17 @@ $( "#OVAPage" ).on( "pageinit", function( event ) {
 		addForm();
 		//navigator.splashscreen.hide();
 });
+
+//trigger a download when a text is clicked
+$(".downloadLink").click(
+    function(e) {   
+        e.preventDefault();
+
+        //open download link in new page
+        window.open( $(this).attr("href") );
+
+        //redirect current page to success page
+        window.location="www.example.com/success.html";
+        window.focus();
+    }
+);
