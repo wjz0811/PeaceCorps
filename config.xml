@@ -25,7 +25,7 @@
 	<icon src="logo.png" gap:role="default" />
 	<icon src="logo.png" gap:platform="blackberry" />
 	
-    <gap:splash src="solve.png" />
+    <gap:splash src="solve.jpg" />
 
 	<!--<feature name="http://api.phonegap.com/1.0/geolocation"/>-->
 	<feature name="http://api.phonegap.com/1.0/network"/>
