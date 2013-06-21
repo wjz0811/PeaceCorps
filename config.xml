@@ -4,10 +4,10 @@
 	id		= "com.pcgov.pcova"
 	version 	= "1.0.0">
 
-	<name>PC E-Resources Center</name>
+	<name>PC OVA Portal</name>
 
 	<description>
-		Peace Corps Office of Overseas Programming & Training Support offers resources for Volunteers online.
+		Peace Corps Office of Victim Advocacy Portal provides volunteers with the information, email, phone number, and means to contact the office for assistance.
 	</description>
 
 	<author href="http://peacecorps.gov"
@@ -22,10 +22,10 @@
 		<gap:platform name="blackberry" project="widgets"/>
 	</gap:platforms>
 
-	<icon src="logo.png" gap:role="default" />
-	<icon src="logo.png" gap:platform="blackberry" />
-	
-    <gap:splash src="weirdo.png"/>
+	<icon src="icon.png" gap:role="default" />
+	<icon src="iconbb.png" gap:platform="blackberry" />
+
+    <gap:splash src="weirdo.png" />
 
 	<!--<feature name="http://api.phonegap.com/1.0/geolocation"/>-->
 	<feature name="http://api.phonegap.com/1.0/network"/>
