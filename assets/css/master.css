@@ -77,7 +77,7 @@ white-space: normal !important;
 color:#000000;	
 }
 
-li {font-size:12px;white-space:normal!important;}
+li {font-size:12px;}
 .ui-li-heading {white-space:normal!important;}
 .footnote { font-size:10px;
 margin:0px 20px 0px 20px;}
@@ -108,8 +108,4 @@ font-weight:500;
 }
 
 .checklist .ui-input-text.ui-shadow-inset.ui-corner-all.ui-btn-shadow.ui-body-c {margin-left:40px !important;}
-
-# {
-text-wrap:none;
-}
 	
